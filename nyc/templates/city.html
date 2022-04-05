@@ -1,0 +1,11 @@
+<h1>New York City Guide</h1>
+<p>
+    Wondering about fun activities to do in the big city? Check out this
+    directory of activities in each borough!
+</p>
+
+<ul>
+    {% for borough in boroughs %}
+    <li><a href="{% url 'borough' borough %}">{{ borough|title }}</a></li>
+    {% endfor %}
+</ul>
