@@ -1,18 +1,15 @@
 # New York City Guide - Django Project for Justice Through Code
 ## Our Team
->**Jose Cruz**
->
->GitHub Username: JoseCruz-MVP 
+>**Jose Cruz**<br>
+>GitHub Username: JoseCruz-MVP<br>
 >https://github.com/Josecruz-MVP
 
->**Mianta McKnight**
->
->GitHub Username: RogueStorm7 
+>**Mianta McKnight**<br>
+>GitHub Username: RogueStorm7<br> 
 >https://github.com/RogueStorm7
 
->**Chris Storrer**
->
->GitHub Username: storrer 
+>**Chris Storrer**<br>
+>GitHub Username: storrer<br>
 >https://github.com/storrer
 ## To start building this project:
 
