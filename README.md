@@ -1,5 +1,16 @@
-# New York City Guide - Django Project
+# New York City Guide - Django Project for Justice Through Code
+## Our Team
+>**Jose Cruz**<br>
+>GitHub Username: JoseCruz-MVP<br>
+>https://github.com/Josecruz-MVP
 
+>**Mianta McKnight**<br>
+>GitHub Username: RogueStorm7<br> 
+>https://github.com/RogueStorm7
+
+>**Chris Storrer**<br>
+>GitHub Username: storrer<br>
+>https://github.com/storrer
 ## To start building this project:
 
 ### 1. Create a virtual environment
@@ -15,6 +26,8 @@ Make sure to call your virtual environment "venv"
 Windows Powershell users:
 ```
 venv\Scripts\activate.bat
+#or
+venv\Scripts\Activate.ps1
 ```
 Bash users:
 ```
