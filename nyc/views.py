@@ -25,14 +25,17 @@ class ActivityView(View):
         context= {
             'borough': borough, 
             'activity': activity,
+            # Here is the all-important venues data:
+            'venues': boroughs[borough][activity].keys(),
         }
-
+        
+        # Return the http response with the rendered template.
         return render(
             request=request,
             template_name='activity.html',
             context=context,
         )
-    pass
+    
 
 
 class VenueView(View):
