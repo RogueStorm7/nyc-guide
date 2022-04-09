@@ -2,8 +2,8 @@
 
 <p align="center">
   <img 
-    width="300"
-    height="300"
+    width="500"
+    height="500"
     src="nyc\assets\nyc-1.gif"
   >
 </p>
