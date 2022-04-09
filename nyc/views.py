@@ -20,7 +20,9 @@ class BoroughView(View):
 
 class ActivityView(View):
     pass
+# this is what we need to work on.
 
 
 class VenueView(View):
     pass
+# this is what we need to work on see above... double check though 
