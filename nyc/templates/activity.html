@@ -1,0 +1,21 @@
+{% comment %}
+The first use of the context{} dictionary object in this template is to display a page heading:
+{% endcomment %}
+<h1>{{ activity | title }} of {{ borough | title }}</h1>
+
+{% comment %} Iterate over the venues dictionary to display them in a list. {% endcomment %}
+<ul>
+    {% for venue in venues %}
+    <li>
+        {% comment %} 
+        Here we create links to venues dynamically using the url template tag.
+        From the docs: "The first argument is a URL pattern name. It can be a 
+        quoted literal or any other context variable. Additional arguments are
+        optional and should be SPACE SEPARATED.
+        {% endcomment %}
+        <a href="{% url 'venue' borough activity venue %}">
+            {{ venue|title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
