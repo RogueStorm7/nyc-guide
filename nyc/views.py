@@ -19,7 +19,23 @@ class BoroughView(View):
 
 
 class ActivityView(View):
-    pass
+    # The borough and activity arguments are strings taken from the URL
+    def get(self, request, borough, activity):
+        # context is a dictionary that will be passed to the render function and will be available in the template
+        context= {
+            'borough': borough, 
+            'activity': activity,
+            # Here is the all-important venues data:
+            'venues': boroughs[borough][activity].keys(),
+        }
+        
+        # Return the http response with the rendered template.
+        return render(
+            request=request,
+            template_name='activity.html',
+            context=context,
+        )
+    
 
 
 class VenueView(View):
