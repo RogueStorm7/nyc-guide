@@ -19,9 +19,7 @@ class BoroughView(View):
 
 
 class ActivityView(View):
-    pass
-
-# The borough and activity arguments are strings taken from the URL
+    # The borough and activity arguments are strings taken from the URL
     def get(self, request, borough, activity):
         # context is a dictionary that will be passed to the render function and will be available in the template
         context= {
@@ -37,7 +35,6 @@ class ActivityView(View):
             template_name='activity.html',
             context=context,
         )
-  
 class VenueView(View):
     pass
 #The borough and activity and venue arguments are strings taken from the URL 
