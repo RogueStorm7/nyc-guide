@@ -19,12 +19,8 @@ class BoroughView(View):
 
 
 class ActivityView(View):
-
-    pass
-# this is what we need to work on.
-
     # The borough and activity arguments are strings taken from the URL
-def get(self, request, borough, activity):
+    def get(self, request, borough, activity):
         # context is a dictionary that will be passed to the render function and will be available in the template
         context= {
             'borough': borough, 
@@ -39,10 +35,17 @@ def get(self, request, borough, activity):
             template_name='activity.html',
             context=context,
         )
-    
-
-
-
 class VenueView(View):
     pass
-# this is what we need to work on see above... double check though 
+#The borough and activity and venue arguments are strings taken from the URL 
+    def get (self, request, borough, activity,venue):
+# Return the http response with the rendered template
+        return render (
+        request=request,
+        template_name='venue.html',
+# context is a dictionary that will be passed to the render function and will be available in the template
+        context= {'borough': borough, 
+        'activity': activity, 
+        'venue': venue, 
+        'description': boroughs[borough][activity][venue].get('description')})
+        
