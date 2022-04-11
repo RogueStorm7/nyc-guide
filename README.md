@@ -114,4 +114,4 @@ And go to `http://localhost:8000`
 
 
 <br>
-&copy; 2022 Jose Cruz, Mianta McKnight, Chris Storrer| All Rights Reserved</p>
+&copy; 2022 Jose Cruz, Mianta McKnight, Chris Storrer| All Rights Reserved
