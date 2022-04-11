@@ -8,15 +8,25 @@
   >
 </p>
 
+
+> **Jose Cruz**<br>
+> GitHub Username: JoseCruz-MVP<br> https://github.com/Josecruz-MVP
+
+> **Mianta McKnight**<br>
+> GitHub Username: RogueStorm7<br> https://github.com/RogueStorm7
+
+> **Chris Storrer**<br>
+> GitHub Username: storrer<br> https://github.com/storrer
+
 # Table of Contents
 
+- [Our Team](#our-team)
 - [Description](#description)
 - [User Story](#user-story)
 - [Usage](#usage)
 - [Credits](#credits)
 - [Built With](#built-with)
 - [Install dependencies](#install-dependencies)
-- [Our Team](#our-team)
 
 ## Description
 
@@ -101,17 +111,6 @@ And go to `http://localhost:8000`
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ## Our Team
 
-<details>
-  <summary> Click to view Contributers</summary>
-
-> **Jose Cruz**<br>
-> GitHub Username: JoseCruz-MVP<br> https://github.com/Josecruz-MVP
-
-> **Mianta McKnight**<br>
-> GitHub Username: RogueStorm7<br> https://github.com/RogueStorm7
-
-> **Chris Storrer**<br>
-> GitHub Username: storrer<br> https://github.com/storrer
 
 </details>
 <br>
