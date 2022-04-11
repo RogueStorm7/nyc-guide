@@ -7,7 +7,7 @@
     src="assets\boroughs.gif"
   >
 </p>
-
+                  ##  Our Team
 
 > **Jose Cruz**<br>
 > GitHub Username: JoseCruz-MVP<br> https://github.com/Josecruz-MVP
@@ -83,7 +83,7 @@ source venv/Scripts/activate
 source venv/bin/activate
 ```
 
-### 3. Install dependencies
+### 3. Install Dependencies
 
 ```
 pip install -r requirements.txt
@@ -109,7 +109,7 @@ And go to `http://localhost:8000`
 ![Mac OS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-## Our Team
+
 
 
 </details>
