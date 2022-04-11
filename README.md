@@ -7,7 +7,8 @@
     src="assets\boroughs.gif"
   >
 </p>
-                  ##  Our Team
+
+### Our Team
 
 > **Jose Cruz**<br>
 > GitHub Username: JoseCruz-MVP<br> https://github.com/Josecruz-MVP
@@ -99,6 +100,7 @@ And go to `http://localhost:8000`
 
 ## Credits
 **NYC gif** was obtained from [giphy.com](https://media1.giphy.com/media/47C87Og388K5BYCmTC/giphy.gif?cid=6c09b9521aa656c3f38f6e9fe8a29b40e3526e9ba1d88ed8&rid=giphy.gif&ct=g)
+
 ## Built With
 
 ![html](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&logoWidth=30)
@@ -111,7 +113,5 @@ And go to `http://localhost:8000`
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 
-
-</details>
 <br>
 &copy; 2022 Jose Cruz, Mianta McKnight, Chris Storrer| All Rights Reserved</p>
