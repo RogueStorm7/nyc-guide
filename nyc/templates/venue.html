@@ -2,4 +2,5 @@
 
 <p>{{  description }}</p>
 
-<a href = "/">Return to home</a>
+{% comment %} This links to the root directory using the url template tag {% endcomment %}
+<a href = "{% url 'city' %} ">Return to home</a>
